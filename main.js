@@ -27,7 +27,7 @@ const templateCity = city => `<li>${city}</li>`;
 const getInfo = () => {
   $.ajax({
     type: 'POST',
-    url: 'http://www.performaweb.com.br/api_teste/',
+    url: 'https://www.performaweb.com.br/api_teste/',
     data: {
       user: 'performaweb',
       token: 'pTspjI1jYxQngonfgbSP'
